@@ -31,6 +31,10 @@ public class HttpClientTest {
 		System.out.println("Response headers: "+response.headers());
 		System.out.println("Response body: "+response.body());
 		
+		System.out.println("Response status code: "+response.statusCode());
+		System.out.println("Response headers: "+response.headers());
+		System.out.println("Response body: "+response.body());
+		
 
 	}
 
